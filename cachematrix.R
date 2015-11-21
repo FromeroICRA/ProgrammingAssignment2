@@ -1,15 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
+matrix1<-makecachematrix(matrix(c(7,6,5,4),c(3,4)))
 
 makeCacheMatrix <- function(x = matrix()) {
-
-}
-
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+m <- NULL 
+y <- NULL 
+setmatrix <- function(y) { 
+    x <<- y 
+    m <<- NULL 
 }
